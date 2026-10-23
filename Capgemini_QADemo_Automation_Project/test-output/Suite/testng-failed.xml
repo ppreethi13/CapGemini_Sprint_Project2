@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ecom.qademo.Login.LoginTest">
+        <methods>
+          <include name="invalidUsername"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="validUserSignUp"/>
+          <include name="validUserSignIn"/>
+          <include name="invalidPasswordSignIn"/>
+        </methods>
+      </class> <!-- ecom.qademo.Login.LoginTest -->
+      <class name="ecom.qademo.Order.OrderTest">
+        <methods>
+          <include name="verifyOrderConfirmationTest"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="orderShouldNotBePlacedWithInvalidCardTest"/>
+        </methods>
+      </class> <!-- ecom.qademo.Order.OrderTest -->
+      <class name="ecom.qademo.Product.ProductTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyProduct"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- ecom.qademo.Product.ProductTest -->
+      <class name="ecom.qademo.Checkout.CheckoutTest">
+        <methods>
+          <include name="missingAddressCheckoutTest"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="validCheckoutTest"/>
+          <include name="invalidCardCheckoutTest"/>
+        </methods>
+      </class> <!-- ecom.qademo.Checkout.CheckoutTest -->
+      <class name="ecom.qademo.Cart.CartTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyAddToCart"/>
+          <include name="verifyRemoveProduct"/>
+        </methods>
+      </class> <!-- ecom.qademo.Cart.CartTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

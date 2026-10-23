@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Valid checkout test executed]]>
+    </line>
+    <line>
+      <![CDATA[Invalid card checkout test executed]]>
+    </line>
+    <line>
+      <![CDATA[Missing address checkout test executed]]>
+    </line>
+    <line>
+      <![CDATA[Missing Name checkout test executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-21T10:36:52 IST" name="Default suite" finished-at="2026-10-21T10:38:01 IST" duration-ms="68590">
+    <groups>
+      <group name="ST">
+        <method signature="CheckoutTest.invalidCardCheckoutTest()[pri:2, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" name="invalidCardCheckoutTest" class="ecom.qademo.Checkout.CheckoutTest"/>
+      </group> <!-- ST -->
+      <group name="neg">
+        <method signature="CheckoutTest.invalidCardCheckoutTest()[pri:2, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" name="invalidCardCheckoutTest" class="ecom.qademo.Checkout.CheckoutTest"/>
+        <method signature="CheckoutTest.missingAddressCheckoutTest()[pri:3, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" name="missingAddressCheckoutTest" class="ecom.qademo.Checkout.CheckoutTest"/>
+        <method signature="CheckoutTest.missingNameCheckoutTest()[pri:4, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" name="missingNameCheckoutTest" class="ecom.qademo.Checkout.CheckoutTest"/>
+      </group> <!-- neg -->
+      <group name="pos">
+        <method signature="CheckoutTest.validCheckoutTest()[pri:1, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" name="validCheckoutTest" class="ecom.qademo.Checkout.CheckoutTest"/>
+      </group> <!-- pos -->
+      <group name="smoke">
+        <method signature="CheckoutTest.validCheckoutTest()[pri:1, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" name="validCheckoutTest" class="ecom.qademo.Checkout.CheckoutTest"/>
+      </group> <!-- smoke -->
+      <group name="IT">
+        <method signature="CheckoutTest.missingAddressCheckoutTest()[pri:3, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" name="missingAddressCheckoutTest" class="ecom.qademo.Checkout.CheckoutTest"/>
+      </group> <!-- IT -->
+      <group name="FT">
+        <method signature="CheckoutTest.missingAddressCheckoutTest()[pri:3, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" name="missingAddressCheckoutTest" class="ecom.qademo.Checkout.CheckoutTest"/>
+        <method signature="CheckoutTest.missingNameCheckoutTest()[pri:4, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" name="missingNameCheckoutTest" class="ecom.qademo.Checkout.CheckoutTest"/>
+      </group> <!-- FT -->
+    </groups>
+    <test started-at="2026-10-21T10:36:52 IST" name="Default test" finished-at="2026-10-21T10:38:01 IST" duration-ms="68590">
+      <class name="ecom.qademo.Checkout.CheckoutTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:36:52 IST" name="launchBrowser" finished-at="2026-10-21T10:36:55 IST" duration-ms="2414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validCheckoutTest()[pri:1, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:36:55 IST" name="validCheckoutTest" finished-at="2026-10-21T10:37:10 IST" duration-ms="15641" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Valid checkout test executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validCheckoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:37:10 IST" name="closeBrowser" finished-at="2026-10-21T10:37:11 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:37:11 IST" name="launchBrowser" finished-at="2026-10-21T10:37:13 IST" duration-ms="2348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="invalidCardCheckoutTest()[pri:2, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:37:13 IST" name="invalidCardCheckoutTest" finished-at="2026-10-21T10:37:27 IST" duration-ms="14367" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid card checkout test executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidCardCheckoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:37:27 IST" name="closeBrowser" finished-at="2026-10-21T10:37:27 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:37:27 IST" name="launchBrowser" finished-at="2026-10-21T10:37:29 IST" duration-ms="1997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="missingAddressCheckoutTest()[pri:3, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:37:29 IST" name="missingAddressCheckoutTest" finished-at="2026-10-21T10:37:44 IST" duration-ms="14140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Missing address checkout test executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- missingAddressCheckoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:37:44 IST" name="closeBrowser" finished-at="2026-10-21T10:37:44 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:37:44 IST" name="launchBrowser" finished-at="2026-10-21T10:37:46 IST" duration-ms="2192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="missingNameCheckoutTest()[pri:4, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:37:46 IST" name="missingNameCheckoutTest" finished-at="2026-10-21T10:38:00 IST" duration-ms="14279" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Missing Name checkout test executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- missingNameCheckoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.qademo.Checkout.CheckoutTest@192d43ce]" started-at="2026-10-21T10:38:00 IST" name="closeBrowser" finished-at="2026-10-21T10:38:01 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.qademo.Checkout.CheckoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

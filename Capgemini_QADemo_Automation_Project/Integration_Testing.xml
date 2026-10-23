@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Integration Testing Suite">
+
+    <test name="IT Test">
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="IT"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="ecom.qademo.Login.LoginTest"/>
+            <class name="ecom.qademo.Cart.CartTest"/>
+            <class name="ecom.qademo.Checkout.CheckoutTest"/>
+            <class name="ecom.qademo.Order.OrderTest"/>
+        </classes>
+
+    </test>
+
+</suite>

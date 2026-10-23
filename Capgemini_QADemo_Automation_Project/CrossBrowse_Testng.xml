@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="QADemo Cross Browser Suite">
+
+    <!-- Run all modules in Chrome -->
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="ecom.qademo.Login.LoginTest"/>
+            <class name="ecom.qademo.Product.ProductTest"/>
+        </classes>
+    </test>
+
+    <!-- Run all modules in Edge -->
+    <test name="Edge Test">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="ecom.qademo.Cart.CartTest"/>
+            <class name="ecom.qademo.Checkout.CheckoutTest"/>
+            <class name="ecom.qademo.Order.OrderTest"/>
+        </classes>
+    </test>
+</suite>

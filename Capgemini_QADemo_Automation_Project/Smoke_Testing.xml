@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="QADemo Smoke Suite">
+
+    <test name="Smoke Test">
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="ecom.qademo.Login.LoginTest"/>
+            <class name="ecom.qademo.Product.ProductTest"/>
+            <class name="ecom.qademo.Cart.CartTest"/>
+            <class name="ecom.qademo.Checkout.CheckoutTest"/>
+            <class name="ecom.qademo.Order.OrderTest"/>
+        </classes>
+    </test>
+</suite>

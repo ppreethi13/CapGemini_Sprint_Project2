@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 21 00:48:44 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>182 seconds (182645 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.qademo.Login.LoginTest.validUserSignUp()'><b>validUserSignUp</b><br>Test class: ecom.qademo.Login.LoginTest<br/>
+<a href="#Output-4015102" onClick='toggleBox("Output-4015102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4015102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4015102">
+msaipreethi1311@gmail.com --> SIGNUP IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ecom.qademo.Login.LoginTest@20deea7f</td></tr>
+<tr>
+<td title='ecom.qademo.Checkout.CheckoutTest.missingNameCheckoutTest()'><b>missingNameCheckoutTest</b><br>Test class: ecom.qademo.Checkout.CheckoutTest<br/>
+<a href="#Output-93981118" onClick='toggleBox("Output-93981118", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-93981118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-93981118">
+Missing Name checkout test executed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ecom.qademo.Checkout.CheckoutTest@158da8e</td></tr>
+<tr>
+<td title='ecom.qademo.Product.ProductTest.invalidProductTest()'><b>invalidProductTest</b><br>Test class: ecom.qademo.Product.ProductTest<br/>
+<a href="#Output-983834017" onClick='toggleBox("Output-983834017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-983834017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-983834017">
+Invalid product test PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.qademo.Product.ProductTest@3ce1e309</td></tr>
+<tr>
+<td title='ecom.qademo.Cart.CartTest.verifyRemoveProduct()'><b>verifyRemoveProduct</b><br>Test class: ecom.qademo.Cart.CartTest<br/>
+<a href="#Output-182254297" onClick='toggleBox("Output-182254297", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-182254297" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-182254297">
+Remove product test PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ecom.qademo.Cart.CartTest@6aba2b86</td></tr>
+<tr>
+<td title='ecom.qademo.Cart.CartTest.verifyAddToCart()'><b>verifyAddToCart</b><br>Test class: ecom.qademo.Cart.CartTest<br/>
+<a href="#Output-1701388960" onClick='toggleBox("Output-1701388960", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1701388960" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1701388960">
+Add to cart test PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.qademo.Cart.CartTest@6aba2b86</td></tr>
+<tr>
+<td title='ecom.qademo.Checkout.CheckoutTest.validCheckoutTest()'><b>validCheckoutTest</b><br>Test class: ecom.qademo.Checkout.CheckoutTest<br/>
+<a href="#Output-1610014012" onClick='toggleBox("Output-1610014012", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1610014012" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1610014012">
+Valid checkout test executed<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>ecom.qademo.Checkout.CheckoutTest@158da8e</td></tr>
+<tr>
+<td title='ecom.qademo.Order.OrderTest.verifyOrderConfirmationTest()'><b>verifyOrderConfirmationTest</b><br>Test class: ecom.qademo.Order.OrderTest<br/>
+<a href="#Output-8302165" onClick='toggleBox("Output-8302165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8302165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8302165">
+Order confirmation verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ecom.qademo.Order.OrderTest@74e52303</td></tr>
+<tr>
+<td title='ecom.qademo.Login.LoginTest.invalidUsername()'><b>invalidUsername</b><br>Test class: ecom.qademo.Login.LoginTest<br/>
+<a href="#Output-326376794" onClick='toggleBox("Output-326376794", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-326376794" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-326376794">
+Invalid password login PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.qademo.Login.LoginTest@20deea7f</td></tr>
+<tr>
+<td title='ecom.qademo.Checkout.CheckoutTest.invalidCardCheckoutTest()'><b>invalidCardCheckoutTest</b><br>Test class: ecom.qademo.Checkout.CheckoutTest<br/>
+<a href="#Output-836371508" onClick='toggleBox("Output-836371508", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-836371508" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-836371508">
+Invalid card checkout test executed<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>ecom.qademo.Checkout.CheckoutTest@158da8e</td></tr>
+<tr>
+<td title='ecom.qademo.Order.OrderTest.orderShouldNotBePlacedWithInvalidCardTest()'><b>orderShouldNotBePlacedWithInvalidCardTest</b><br>Test class: ecom.qademo.Order.OrderTest<br/>
+<a href="#Output-1285601713" onClick='toggleBox("Output-1285601713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1285601713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1285601713">
+Order was not placed with invalid card details<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>ecom.qademo.Order.OrderTest@74e52303</td></tr>
+<tr>
+<td title='ecom.qademo.Login.LoginTest.validUserSignIn()'><b>validUserSignIn</b><br>Test class: ecom.qademo.Login.LoginTest<br/>
+<a href="#Output-2086767061" onClick='toggleBox("Output-2086767061", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2086767061" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2086767061">
+msaipreethi1311@gmail.com --> SIGNIN IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.qademo.Login.LoginTest@20deea7f</td></tr>
+<tr>
+<td title='ecom.qademo.Product.ProductTest.verifyProduct()'><b>verifyProduct</b><br>Test class: ecom.qademo.Product.ProductTest<br/>
+<a href="#Output-1444635117" onClick='toggleBox("Output-1444635117", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1444635117" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1444635117">
+Product test PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>ecom.qademo.Product.ProductTest@3ce1e309</td></tr>
+<tr>
+<td title='ecom.qademo.Cart.CartTest.verifyEmptyCart()'><b>verifyEmptyCart</b><br>Test class: ecom.qademo.Cart.CartTest<br/>
+<a href="#Output-818209618" onClick='toggleBox("Output-818209618", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-818209618" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-818209618">
+Empty cart test PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.qademo.Cart.CartTest@6aba2b86</td></tr>
+<tr>
+<td title='ecom.qademo.Checkout.CheckoutTest.missingAddressCheckoutTest()'><b>missingAddressCheckoutTest</b><br>Test class: ecom.qademo.Checkout.CheckoutTest<br/>
+<a href="#Output-155224151" onClick='toggleBox("Output-155224151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-155224151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-155224151">
+Missing address checkout test executed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ecom.qademo.Checkout.CheckoutTest@158da8e</td></tr>
+<tr>
+<td title='ecom.qademo.Login.LoginTest.invalidPasswordSignIn()'><b>invalidPasswordSignIn</b><br>Test class: ecom.qademo.Login.LoginTest<br/>
+<a href="#Output-57151543" onClick='toggleBox("Output-57151543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-57151543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-57151543">
+Invalid password login PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.qademo.Login.LoginTest@20deea7f</td></tr>
+</table><p>
+</body>
+</html>

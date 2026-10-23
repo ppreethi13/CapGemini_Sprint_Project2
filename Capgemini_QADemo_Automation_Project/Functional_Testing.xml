@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<suite name="Functional Testing Suite">
+
+    <test name="FT">
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="FT"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="ecom.qademo.Login.LoginTest"/>
+            <class name="ecom.qademo.Checkout.CheckoutTest"/>
+            <class name="ecom.qademo.Order.OrderTest"/>
+        </classes>
+
+    </test>
+
+</suite>
+

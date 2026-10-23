@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="QADemo Parallel Suite"
+       parallel="tests"
+       thread-count="5">
+    <test name="Login">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.qademo.Login.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Product">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.qademo.Product.ProductTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.qademo.Cart.CartTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.qademo.Checkout.CheckoutTest"/>
+        </classes>
+    </test>
+
+    <test name="Order">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.qademo.Order.OrderTest"/>
+        </classes>
+    </test>
+</suite>
